@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-431-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-435-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
 </p>
 
@@ -50,7 +50,7 @@ The core goal is simple: compress prose-style prompts into structured protocols.
 
 - [Full case gallery](docs/gallery.md)
 - [Gallery Part 1: cases 1-165](docs/gallery-part-1.md)
-- [Gallery Part 2: cases 166-431](docs/gallery-part-2.md)
+- [Gallery Part 2: cases 166-435](docs/gallery-part-2.md)
 - [Industrial prompt templates and pitfalls guide](docs/templates.md)
 - [Agent skill: GPT-Image2 Style Library](agents/skills/gpt-image-2-style-library/SKILL.md)
 - [MIT License](LICENSE)
@@ -77,7 +77,7 @@ Start with the case album to find a visual direction, then open the prompt templ
       <a href="docs/gallery.md#cat-infographic"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>📰 Posters & Typography</strong><br><sub>70 cases</sub></p>
+      <p><strong>📰 Posters & Typography</strong><br><sub>71 cases</sub></p>
       <a href="docs/gallery.md#cat-poster"><img src="data/images/category-covers/poster.jpg" alt="Posters and typography" width="220"></a><br>
       <sub>Event posters, covers, type-driven visuals, and strong layout compositions.</sub><br>
       <a href="docs/gallery.md#cat-poster"><strong>View Cases</strong></a>
@@ -105,13 +105,13 @@ Start with the case album to find a visual direction, then open the prompt templ
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
-      <p><strong>📷 Photography & Realism</strong><br><sub>53 cases</sub></p>
+      <p><strong>📷 Photography & Realism</strong><br><sub>54 cases</sub></p>
       <a href="docs/gallery.md#cat-photo"><img src="data/images/category-covers/photo.jpg" alt="Photography and realism" width="220"></a><br>
       <sub>Portraits, phone photography, film texture, and commercial photography.</sub><br>
       <a href="docs/gallery.md#cat-photo"><strong>View Cases</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <p><strong>🎨 Illustration & Art</strong><br><sub>39 cases</sub></p>
+      <p><strong>🎨 Illustration & Art</strong><br><sub>41 cases</sub></p>
       <a href="docs/gallery.md#cat-illustration"><img src="data/images/category-covers/illustration.jpg" alt="Illustration and art" width="220"></a><br>
       <sub>Illustration, art styles, material experiments, and decorative images.</sub><br>
       <a href="docs/gallery.md#cat-illustration"><strong>View Cases</strong></a>
@@ -153,14 +153,14 @@ Start with the case album to find a visual direction, then open the prompt templ
     <td width="33%" valign="top" align="center">
       <h4>🖼️ Full Gallery</h4>
       <a href="docs/gallery.md"><img src="data/images/category-covers/gallery.jpg" alt="Full gallery" width="220"></a><br>
-      <sub>Browse all 431 cases by gallery part and category.</sub><br>
+      <sub>Browse all 435 cases by gallery part and category.</sub><br>
       <a href="docs/gallery.md"><strong>Open Gallery</strong></a>
     </td>
     <td width="33%" valign="top" align="center">
       <h4>⭐ Latest Additions</h4>
-      <a href="docs/gallery-part-2.md#case-431"><img src="data/images/case431.jpg" alt="Latest additions" width="220"></a><br>
+      <a href="docs/gallery-part-2.md#case-435"><img src="data/images/case435.jpg" alt="Latest additions" width="220"></a><br>
       <sub>The newest community cases and workflows collected in the repo.</sub><br>
-      <a href="docs/gallery-part-2.md#case-431"><strong>View Latest</strong></a>
+      <a href="docs/gallery-part-2.md#case-435"><strong>View Latest</strong></a>
     </td>
   </tr>
 </table>
@@ -428,30 +428,30 @@ Only the latest collection and import run is shown here. Older imports stay in t
 <table>
   <tr>
     <td width="50%" valign="top" align="center">
-      <p><strong>Case 428: F1 Live Broadcast Screenshot</strong></p>
-      <a href="docs/gallery-part-2.md#case-428"><img src="data/images/case428.jpg" alt="F1 live broadcast screenshot" width="140"></a><br>
-      <sub>A paddock broadcast frame with timing tower, final-lap overlays, radio headset, and realistic garage depth.</sub><br>
-      <a href="docs/gallery-part-2.md#case-428"><strong>View Case</strong></a>
+      <p><strong>Case 432: Great Barrier Reef Travel Poster</strong></p>
+      <a href="docs/gallery-part-2.md#case-432"><img src="data/images/case432.jpg" alt="Great Barrier Reef travel poster" width="140"></a><br>
+      <sub>A flat vector reef poster with coral layers, snorkeler composition, and vintage tourism typography.</sub><br>
+      <a href="docs/gallery-part-2.md#case-432"><strong>View Case</strong></a>
     </td>
     <td width="50%" valign="top" align="center">
-      <p><strong>Case 429: Korean Convenience Store Portrait</strong></p>
-      <a href="docs/gallery-part-2.md#case-429"><img src="data/images/case429.jpg" alt="Korean convenience store portrait" width="140"></a><br>
-      <sub>A cozy late-night store portrait with refrigerator glow, pink hoodie styling, and iPhone-flash realism.</sub><br>
-      <a href="docs/gallery-part-2.md#case-429"><strong>View Case</strong></a>
+      <p><strong>Case 433: Korean Watercolor City Street</strong></p>
+      <a href="docs/gallery-part-2.md#case-433"><img src="data/images/case433.jpg" alt="Korean watercolor city street" width="140"></a><br>
+      <sub>A peaceful Korean street rendered as ink-and-watercolor travel journal art with bakery lights and wet pavement.</sub><br>
+      <a href="docs/gallery-part-2.md#case-433"><strong>View Case</strong></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top" align="center">
-      <p><strong>Case 430: Sketch Fashion Editorial</strong></p>
-      <a href="docs/gallery-part-2.md#case-430"><img src="data/images/case430.jpg" alt="Sketch fashion editorial" width="140"></a><br>
-      <sub>A monochrome pencil-sketch fashion illustration with charcoal texture and a bold orange geometry backdrop.</sub><br>
-      <a href="docs/gallery-part-2.md#case-430"><strong>View Case</strong></a>
+      <p><strong>Case 434: Tokyo Film Street Portrait</strong></p>
+      <a href="docs/gallery-part-2.md#case-434"><img src="data/images/case434.jpg" alt="Tokyo film street portrait" width="140"></a><br>
+      <sub>A candid Tokyo backstreet portrait with film grain, vending machines, soft urban depth, and phone-photo realism.</sub><br>
+      <a href="docs/gallery-part-2.md#case-434"><strong>View Case</strong></a>
     </td>
     <td width="50%" valign="top" align="center">
-      <p><strong>Case 431: Travel Typography Poster</strong></p>
-      <a href="docs/gallery-part-2.md#case-431"><img src="data/images/case431.jpg" alt="Travel typography poster" width="140"></a><br>
-      <sub>A city-name poster system where each giant letter becomes a framed vector scene from the destination.</sub><br>
-      <a href="docs/gallery-part-2.md#case-431"><strong>View Case</strong></a>
+      <p><strong>Case 435: Layered Papercraft Couple</strong></p>
+      <a href="docs/gallery-part-2.md#case-435"><img src="data/images/case435.jpg" alt="Layered papercraft couple" width="140"></a><br>
+      <sub>A warm paper-cut diorama prompt with stacked depth planes, soft shadows, rounded characters, and pastel craft texture.</sub><br>
+      <a href="docs/gallery-part-2.md#case-435"><strong>View Case</strong></a>
     </td>
   </tr>
 </table>

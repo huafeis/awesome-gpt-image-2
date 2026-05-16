@@ -8712,3 +8712,118 @@ QUALITY: 8K ultra-detailed, print-ready, razor-sharp vector edges, flawless typo
 ```
 
 ***
+
+<a name="case-432"></a>
+
+### 例 432：大堡礁复古旅行海报
+
+![大堡礁复古旅行海报](../data/images/case432.jpg)
+
+**来源：** [@jzaib4269](https://x.com/jzaib4269/status/2055487295734620522)
+
+**提示词：**
+
+```text
+Create a premium editorial travel poster illustration of the Great Barrier Reef, Australia.
+Style: Flat vector illustration, ultra-clean minimalism, mid-century modern travel poster aesthetic, inspired by vintage tourism prints and Scandinavian graphic design. No photorealism, no textures, no noise, no gradients. Use crisp shapes, smooth color blocks, and harmonious vibrant tones.
+Composition (vertical 3:4 layout):
+Foreground (underwater): A rich coral reef ecosystem filled with colorful corals in pink, orange, yellow, and red tones. Include tropical fish of various species (striped, bright yellow, blue, and orange), and a large sea turtle swimming gracefully toward the right. Clear turquoise water with high visibility.
+Midground: A female snorkeler swimming horizontally just beneath the water surface, wearing fins and a snorkel mask, observing the reef below. Light rays subtly pass through the water surface.
+Background (above water): A calm tropical ocean with shallow reef patches visible through crystal-clear water. A white leisure boat floats peacefully on the left, and a small sailboat appears far in the distance. On the horizon, soft green islands or hills stretch across.
+Sky: Bright blue sky with fluffy white clouds and a few birds flying, enhancing the serene vacation mood.
+Typography:
+At the bottom of the poster, include bold uppercase text:
+“GREAT BARRIER REEF”
+Below it, smaller spaced-out text:
+“AUSTRALIA”
+Add a small decorative coral icon between divider lines.
+Mood & Lighting: Bright daylight, calm, inviting, tropical paradise atmosphere. Colors should feel fresh, vibrant, and relaxing with strong contrast between coral reef and ocean blues.
+```
+
+***
+
+<a name="case-433"></a>
+
+### 例 433：韩国城市水彩旅行插画
+
+![韩国城市水彩旅行插画](../data/images/case433.jpg)
+
+**来源：** [@Taaruk_](https://x.com/Taaruk_/status/2055492435862773978)
+
+**提示词：**
+
+```text
+Dreamy watercolor travel illustration of a peaceful Korean city street, hand-painted urban sketchbook style, delicate ink linework mixed with soft watercolor washes, cozy café storefronts, warm bakery lights glowing through windows, quiet morning atmosphere after light rain, reflective wet pavement, pedestrians with umbrellas and tote bags, bicycles parked along narrow streets, traditional Korean signs and typography, subtle Korean text labels, soft beige paper texture background, architectural sketch aesthetic, calm everyday city life, muted earthy palette with warm browns, faded greens, cream whites and soft blue accents, highly detailed pen-and-ink drawing, loose expressive brush strokes, travel journal composition, editorial postcard layout, elegant serif title text at top (“SEOUL”, “JEONJU”, “DAEJEON”), handwritten notes and date stamps, vintage travel diary aesthetic, cozy East Asian urban scenery, cinematic slice-of-life mood, watercolor bleeding edges, natural perspective, atmospheric depth, peaceful storytelling illustration, minimalist negative space, ultra detailed watercolor texture, sketchbook traveler aesthetic, nostalgic café culture vibes, Studio Ghibli-inspired realism, European urban sketching style mixed with Korean street scenery, soft daylight, calm and poetic composition, vertical poster design, premium art print quality.
+```
+
+***
+
+<a name="case-434"></a>
+
+### 例 434：东京街头胶片人像
+
+![东京街头胶片人像](../data/images/case434.jpg)
+
+**来源：** [@BubbleBrain](https://x.com/BubbleBrain/status/2055491616392052887)
+
+**提示词：**
+
+```text
+film photography, candid street snapshot aesthetic, razor-sharp focus on subject, shallow depth of field with soft blurred urban background, bright daylight, slightly overexposed highlights, vivid contrast, subtle analog film texture, heavy film grain, nostalgic cinematic atmosphere, Tokyo backstreet neighborhood scene near a quiet train station, narrow pedestrian street lined with Japanese convenience stores, vintage vending machines, small ramen shops, hanging signs with faded typography, bicycles parked along tiled sidewalks, utility poles and overhead wires stretching across the sky, scattered fallen leaves on the ground, distant pedestrians and passing taxis softly blurred in the background, warm afternoon sunlight with deep blue sky, realistic street fashion photography style, effortless cool street vibe, vibrant colors with slightly muted faded film tones, beautiful 19-year-old Chinese female influencer, fair porcelain skin with cold pale undertones, exquisite natural makeup, glossy soft lips, defined brows, delicate lashes, soft messy long black hair with natural flowing curves, wearing an off-shoulder white fluffy faux fur jacket, playful yet subtly seductive expression, lazy dreamy vintage filter, ultra high-quality details, intentionally mundane phone-camera snapshot feeling, casual accidental composition, imperfect framing, realistic iPhone photography texture, spontaneous candid energy, highly attractive girl casually posing in the middle of the sidewalk, body facing away from the camera while turning her head back toward the lens with direct eye contact, relaxed posture, soft wind moving her hair, emotional youthful atmosphere, modern Asian street fashion editorial, soft haze, layered composition, masterpiece, best quality, ultra detailed, slight motion blur from slow shutter, authentic everyday realism, “BubbleBrain” small handwritten signature text on bottom corner --ar 9:16
+```
+
+***
+
+<a name="case-435"></a>
+
+### 例 435：层叠纸雕情侣插画
+
+![层叠纸雕情侣插画](../data/images/case435.jpg)
+
+**来源：** [@Just_sharon7](https://x.com/Just_sharon7/status/2055368240885641323)
+
+**提示词：**
+
+```text
+{
+  "style": "layered paper-cut illustration, papercraft diorama, handcrafted aesthetic",
+  "technique": {
+    "layering": "multiple stacked paper layers with soft drop shadows between each layer",
+    "depth": "5–7 visible depth planes from foreground to background",
+    "edges": "smooth, rounded, slightly beveled paper-cut edges",
+    "texture": "subtle paper grain and fibrous texture on all surfaces",
+    "shadows": "soft, diffused inner shadows beneath each layer suggesting physical depth"
+  },
+  "character_design": {
+    "proportions": "chibi / cute simplified — large round head, small body (1:1.5 ratio)",
+    "face": {
+      "eyes": "small dot eyes, glossy highlight",
+      "cheeks": "soft circular rosy blush patches",
+      "nose": "absent or minimal dot",
+      "mouth": "simple small curve smile"
+    },
+    "limbs": "short, rounded, stubby limbs",
+    "outline": "clean smooth silhouette, no sharp corners"
+  },
+  "color_palette": {
+    "mood": "warm, cozy, pastel",
+    "tones": ["soft cream", "dusty rose", "sage green", "warm peach", "sky blue", "honey yellow"],
+    "saturation": "low-to-medium, muted and gentle",
+    "background": "warm off-white or soft gradient"
+  },
+  "lighting": {
+    "type": "soft ambient light from top-front",
+    "highlights": "gentle white edge highlights on top layers",
+    "shadows": "warm light tan/beige shadow tones beneath cut layers"
+  },
+  "environment": {
+    "foliage": "simplified rounded leaf and floral shapes as separate paper layers",
+    "ground": "curved horizon layers suggesting rolling hills",
+    "details": "tiny decorative elements — stars, small hearts, dots — cut from paper"
+  },
+  "overall_mood": "warm, whimsical, cozy, handmade, storybook",
+  "render_quality": "ultra-detailed papercraft art, studio photography lighting, sharp focus on layer edges"
+}
+```
+
+***
