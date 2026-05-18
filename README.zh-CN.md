@@ -16,6 +16,24 @@
 > 不定期更新最新的玩法，欢迎star。
 > 本项目由 [词元 API](https://ciyuan.today/) 提供赞助支持。词元 API 是一个 AI 聚合平台，可以高性价比使用 GPT Image 2。
 
+## 🌐 可视化网站
+
+访问 [gpt-image2.canghe.ai](https://gpt-image2.canghe.ai/) 可以用产品化方式浏览案例：查看大图、复制完整 Prompt、按风格或场景筛选、登录后测试生成，并快速跳回 GitHub 源案例。
+
+<p align="center">
+  <a href="https://gpt-image2.canghe.ai/">
+    <img src="data/images/site-preview.png" alt="GPT-Image2 Gallery 网站预览" width="900">
+  </a>
+</p>
+
+## 公众号与交流群
+
+微信搜 **苍何** 或扫描下方二维码关注苍何公众号。加入 GPT-Image2 交流群，请关注后回复：**gpt-image-2交流群**。
+
+<p align="center">
+  <img src="data/images/wechat-community.jpg" alt="苍何微信交流群二维码" width="760">
+</p>
+
 <a name="section-vision"></a>
 
 ## ⚡️ 项目愿景
@@ -34,6 +52,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 - [案例画廊 Part 1：例 1-165](docs/gallery-part-1.md)
 - [案例画廊 Part 2：例 166-378](docs/gallery-part-2.md)
 - [工业级提示词模板与防坑指南](docs/templates.md#section-templates)
+- [Agent Skill：GPT-Image2 风格库](agents/skills/gpt-image-2-style-library/SKILL.md)
 - [MIT License](LICENSE)
 - [完整声明页](docs/disclaimer.md#section-disclaimer)
 
@@ -192,6 +211,122 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 | 🧪 其他应用场景 | [查看提示词](docs/templates.md#tpl-other) | 混合任务、实验玩法、特殊输出 |
 
 </details>
+
+## 🤖 Agent Skill
+
+仓库内提供了 agent skill，用同一份风格库数据为 Claude Code、Codex 等 Agent 选择 GPT-Image2 模板、分类、风格和场景标签。
+
+包地址：[npm](https://www.npmjs.com/package/gpt-image-2-style-library) / [GitHub Packages](https://github.com/freestylefly/awesome-gpt-image-2/pkgs/npm/gpt-image-2-style-library)
+
+<p align="center">
+  <img src="agents/skills/gpt-image-2-style-library/assets/city-life-system-map.png" alt="使用 GPT-Image2 风格库 skill 生成的城市生命系统图谱示例" width="760">
+</p>
+
+<p align="center"><sub>示例：用 gpt-image-2-style-library 生成“城市生命系统图谱”。</sub></p>
+
+### Agent 一键安装
+
+推荐给 Claude Code、Codex、Cursor，以及其他 [`skills`](https://www.npmjs.com/package/skills) 支持的本地 Agent：
+
+```bash
+npx skills add freestylefly/awesome-gpt-image-2 --skill gpt-image-2-style-library --agent claude-code codex --global --yes --copy
+```
+
+安装到所有支持的本地 Agent：
+
+```bash
+npx skills add freestylefly/awesome-gpt-image-2 --global --all --copy
+```
+
+### Claude Code 插件市场
+
+在 Claude Code 中运行：
+
+```text
+/plugin marketplace add freestylefly/awesome-gpt-image-2
+/plugin install gpt-image-2-style-library@awesome-gpt-image-2
+```
+
+### npm CLI
+
+如果你习惯 npm，可以先安装 CLI，再同步到本地 Agent 技能目录：
+
+```bash
+npm install -g gpt-image-2-style-library
+gpt-image-2-style-library install all
+```
+
+也可以不全局安装，直接运行：
+
+```bash
+npx gpt-image-2-style-library install all
+```
+
+从 GitHub Packages 安装：
+
+```bash
+npm login --scope=@freestylefly --registry=https://npm.pkg.github.com
+npm install -g @freestylefly/gpt-image-2-style-library --registry=https://npm.pkg.github.com
+gpt-image-2-style-library install all
+```
+
+`install all` 会写入 Codex 和 Claude Code 常用的本地技能目录，包括 `~/.codex/skills`、`~/.claude/skills`、`~/.agents/skills`。安装后重启 Agent 会话。
+
+这样调用：
+
+```text
+使用 gpt-image-2-style-library 技能，帮我生成介绍 Codex 的信息图
+```
+
+本地源码开发时使用：
+
+```bash
+npm run generate:style-skill
+npm run install:skill
+```
+
+skill 源码位于 [`agents/skills/gpt-image-2-style-library`](agents/skills/gpt-image-2-style-library/SKILL.md)。生成索引来自 [`data/style-library.json`](data/style-library.json)，网站和 Agent 工作流共用这一份风格库。
+
+## 🔐 网站登录与生成测试
+
+可视化网站已经接入登录后生成测试图能力，底层使用 Supabase Auth、Supabase Postgres，以及 Vercel Function 代理 GPT Image 2 API。
+
+Vercel 需要配置这些环境变量：
+
+```bash
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+SUPER_ADMIN_EMAILS=2689458656@qq.com,canghe0818@gmail.com
+CIYUAN_API_KEY=
+CIYUAN_BASE_URL=https://ciyuan.today
+APP_URL=https://gpt-image2.canghe.ai
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+VITE_GA_MEASUREMENT_ID=
+GA4_PROPERTY_ID=
+GOOGLE_ANALYTICS_CLIENT_ID=
+GOOGLE_ANALYTICS_CLIENT_SECRET=
+GOOGLE_ANALYTICS_REFRESH_TOKEN=
+```
+
+配置清单：
+
+- 将 [`supabase/migrations/202605090001_user_credits.sql`](supabase/migrations/202605090001_user_credits.sql) 应用到 Supabase 项目。
+- 将 [`supabase/migrations/20260509090000_membership_billing.sql`](supabase/migrations/20260509090000_membership_billing.sql) 应用到 Supabase 项目，添加会员套餐、积分包、Stripe 订单记录和积分调整 RPC。
+- 将 [`supabase/migrations/20260512090000_google_account_center.sql`](supabase/migrations/20260512090000_google_account_center.sql) 应用到 Supabase 项目，添加账户用量统计和超级管理员强制扣积分逻辑。
+- 将 [`supabase/migrations/20260512143000_pricing_admin_metrics.sql`](supabase/migrations/20260512143000_pricing_admin_metrics.sql) 应用到 Supabase 项目，更新 `$5 / 300 credits` 价格体系，并添加管理员数据看板指标。
+- 将 [`supabase/migrations/20260515090000_case_favorites.sql`](supabase/migrations/20260515090000_case_favorites.sql) 应用到 Supabase 项目，添加用户案例收藏表。
+- 在 Supabase Auth Redirect URLs 里加入 `https://gpt-image2.canghe.ai`，以及 `http://127.0.0.1:5173` 等本地开发地址。
+- 在 Supabase Dashboard 填入 Google OAuth 凭据并启用 Google Provider。
+- 如需强制只允许 Google 登录，可以在 Supabase Auth settings 里关闭 Email Provider。
+- `SUPABASE_SERVICE_ROLE_KEY` 只放在 Vercel Environment Variables 这类服务端环境里。
+- 配置 Stripe Checkout Webhook：`https://gpt-image2.canghe.ai/api/billing/webhook`。
+- Stripe Webhook 订阅 `checkout.session.completed`、`invoice.payment_succeeded`、`customer.subscription.updated`、`customer.subscription.deleted`。
+- `STRIPE_SECRET_KEY` 和 `STRIPE_WEBHOOK_SECRET` 只放在 Vercel Environment Variables 这类服务端环境里。
+- 为 `gpt-image2.canghe.ai` 创建 GA4 property，把 measurement ID 填到 `VITE_GA_MEASUREMENT_ID`，把数字版 property ID 填到 `GA4_PROPERTY_ID`。
+- 创建 Google OAuth Web Client，Authorized redirect URI 填 `http://localhost:8080/oauth2callback`，然后把 `GOOGLE_ANALYTICS_CLIENT_ID` 和 `GOOGLE_ANALYTICS_CLIENT_SECRET` 写入本地 `.env.local`。
+- 运行 `npm run ga4:oauth`，打开脚本生成的授权链接，同意 `analytics.readonly` 权限，把回跳 URL 粘贴回终端，再把得到的 `GOOGLE_ANALYTICS_REFRESH_TOKEN` 作为 Sensitive 环境变量加到 Vercel。
 
 <a name="section-gallery"></a>
 
@@ -372,12 +507,6 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 ## Star 趋势图
 
 [![Star History Chart](https://api.star-history.com/svg?repos=freestylefly/awesome-gpt-image-2&type=Date)](https://star-history.com/#freestylefly/awesome-gpt-image-2&Date)
-
-## 公众号
-
-微信搜 **苍何** 或扫描下方二维码关注苍何的原创公众号，回复 **AI** 即可获取更多 AI 提示词学习资源。
-
-![苍何微信公众号](data/images/公众号.png)
 
 ## 📜 开源协议
 
